@@ -1,4 +1,4 @@
-/* style.css */
+/* Updated style.css */
 
 .card {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -11,7 +11,7 @@
 }
 
 .buy-now-button {
-    background: linear-gradient(to bottom, #ffaf4b, #ff7f00);
+    background: linear-gradient(to bottom, #008CBA, #005f5f);  /* Changed gradient colors to blue shades */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -21,5 +21,15 @@
 }
 
 .buy-now-button:hover {
-    background: linear-gradient(to bottom, #ff7f00, #ffaf4b);
+    background: linear-gradient(to bottom, #005f5f, #008CBA);  /* Changed gradient colors to blue shades */
+}
+
+/* Updated CSS to set the maximum size of the images */
+.card-img-top {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    object-fit: cover;  /* images are resized to fit the dimensions without stretching */
 }
